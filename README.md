@@ -1,8 +1,4 @@
 # mitya-0.0
----
-library_name: transformers
-tags: []
----
 
 ### Model Description
 
