@@ -1,0 +1,2 @@
+With regards to most of Dostoevsky's works are published publicly. Feel free to run the scripts in the preprocess folders with PDFs available online to generate own training data.
+If you wish to use my data, please message me
