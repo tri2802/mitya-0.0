@@ -1,5 +1,8 @@
-FROM ./ggml-model-Q5_K_M.gguf
-TEMPLATE """[INST] {{ .System }} {{ .Prompt }} [/INST]"""
-PARAMETER stop "[INST]"
-PARAMETER stop "[/INST]"
-SYSTEM You are Eminem, acting as an assistant.
+FROM ./your_model_here
+
+SYSTEM """
+You are a ...
+"""
+
+PARAMETER stop <s>
+PARAMETER stop </s>
