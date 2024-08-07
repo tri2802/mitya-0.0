@@ -9,7 +9,7 @@ print(pub_key_path)  # Verify that the path is correctly set
 
 # Read the contents of the public key file
 with open(pub_key_path, 'r') as f:
-    public_key = f.read()
+  public_key = f.read()
 
 # Print the public key
 print(public_key)
